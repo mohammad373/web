@@ -25,10 +25,6 @@ __name__()
 print(Fore.BLUE+ "\n_______________________________________\n")
 
 #_________________________________________________________________________________________________-
-import sys
-import socket
-import time
-from colorama import Fore
 
 def __1__():
     try:
