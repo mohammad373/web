@@ -90,7 +90,7 @@ def __7__():
         e1 = input("Enter Your Address webSite ==> ")
         if not "http" in e1 or not "https" in e1:
             e1 = ("http://" + e1)
-        req = requests.get("https://api.hackertarget.com/dnslookup/?q" = q1).test
+        req = requests.get("https://api.hackertarget.com/dnslookup/?q" + q1).text
         print(req)
     except:
         pass
