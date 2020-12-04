@@ -41,3 +41,44 @@ def __1__():
     except:
         pass
 __1__()
+
+print("________________________________________________________________")
+#___________________________________________________________________________
+
+
+
+from colorama import Fore
+import sys
+import requests
+import time
+import os
+
+time.sleep(2)
+
+def __2__():
+    try:
+        print(Fore.BLUE + "\nHello . Welcome Back\nThis Is Doman One ;))\n")
+        site2 = input("Enter Your Address WebSite ==>  ")
+        if site2 == "":
+            try:
+                print("Error : This Is Not Found ;(")
+                time.sleep(1)
+                os.system("clear")
+                sys.exit()
+            except:
+                pass
+        info = requests.get(str(site))
+        for item in info:
+            value = ""
+            for var in info[str(i)]:
+                item = item.replace("-" , " ")
+                item = item.title()
+                value += var
+                print(item + " : " + value)
+    except:
+        pass
+__2__()
+
+
+
+
