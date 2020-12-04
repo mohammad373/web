@@ -1,4 +1,7 @@
 # web
+# ip mamile ;)
+# =======================================================
+
 import socket
 import sys
 import time
@@ -24,7 +27,13 @@ __name__()
 
 print(Fore.BLUE+ "\n_______________________________________\n")
 
+
 #_________________________________________________________________________________________________-
+
+# cloud  Flare ;)
+# =============================================================
+
+
 import sys
 import time
 import socket
@@ -45,7 +54,8 @@ __1__()
 print("________________________________________________________________")
 #___________________________________________________________________________
 
-
+# domain dns _1_ 
+# ===============================================
 
 import requests, builtwith
 from colorama import Fore
@@ -66,3 +76,22 @@ def __start11__():
         print(Fore.BLUE+"\n"+name+': '+value)
         
 __start11__()
+
+#_______________________________________________________
+
+import time
+import sys
+import requests
+
+def __7__():
+    try:
+        print("Hello . Welcome Back ;)\nThis is Domain 2\n")
+        time.sleep(2)
+        e1 = input("Enter Your Address webSite ==> ")
+        if not "http" in e1 or not "https" in e1:
+            e1 = ("http://" + e1)
+        req = requests.get("https://api.hackertarget.com/dnslookup/?q" = q1).test
+        print(req)
+    except:
+        pass
+__7__()
