@@ -47,38 +47,22 @@ print("________________________________________________________________")
 
 
 
+import requests, builtwith
 from colorama import Fore
 import sys
-import requests, builtwith
-import time
-import os
-
-time.sleep(2)
-
-def __2__():
-    try:
-        print(Fore.BLUE + "\nHello . Welcome Back\nThis Is Doman One ;))\n")
-        site2 = input("Enter Your Address WebSite ==>  ")
-        if site2 == "":
-            try:
-                print("Error : This Is Not Found ;(")
-                time.sleep(1)
-                os.system("clear")
-                sys.exit()
-            except:
-                pass
-        info = builtwith.parse(str(site))
-        for item in info:
-            value = ""
-            for var in info[str(i)]:
-                item = item.replace("-" , " ")
-                item = item.title()
-                value += var
-                print(item + " : " + value)
-    except:
-        pass
-__2__()
-
-
-
-
+def __start11__():
+    print(Fore.RED+" [!] Plase Enter Domain")
+    target = input(Fore.RED+" ┌─["+Fore.LIGHTGREEN_EX+"WEBKILLER"+Fore.BLUE+"~"+Fore.WHITE+"@HOME"+Fore.RED+"/"+Fore.CYAN+"IG"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"CMS-Detect"+Fore.RED+"""]
+ └──╼ """+Fore.WHITE+"卐 ")
+    if not 'https://' in target or not 'http://' in target:
+        target = 'http://'+target
+    info = builtwith.parse(target)
+    for name in info:
+        value = ''
+        for val in info[str(name)]:
+            name = name.replace('-',' ')
+            name = name.title()
+            value += str(val) 
+        print(Fore.BLUE+"\n"+name+': '+value)
+        
+__start11__()
