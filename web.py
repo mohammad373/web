@@ -88,8 +88,6 @@ def __7__():
         print("Hello . Welcome Back ;)\nThis is Domain 2\n")
         time.sleep(2)
         e1 = input("Enter Your Address webSite ==> ")
-        if not "http" in e1 or not "https" in e1:
-            e1 = ("http://" + e1)
         req = requests.get("http://api.hackertarget.com/dnslookup/?q=" + q1).text
         print(req)
     except:
