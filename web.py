@@ -49,7 +49,7 @@ print("________________________________________________________________")
 
 from colorama import Fore
 import sys
-import requests
+import requests, builtwith
 import time
 import os
 
@@ -67,7 +67,7 @@ def __2__():
                 sys.exit()
             except:
                 pass
-        info = requests.get(str(site))
+        info = builtwith.parse(str(site))
         for item in info:
             value = ""
             for var in info[str(i)]:
